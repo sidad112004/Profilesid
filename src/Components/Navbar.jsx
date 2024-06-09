@@ -11,7 +11,7 @@ function Navbar() {
     };
 
     return (
-        <nav className=" p-3 text-white fixed w-full z-10">
+        <nav className=" p-3 text-white fixed w-full z-10 bg-slate-700">
             <div className="flex justify-between items-center">
                 <div className="font-bold text-lg">SIDDESH</div>
                 <div className="block md:hidden">
