@@ -14,7 +14,7 @@ function Project() {
             <button className="" onClick={() => document.getElementById('my_modal_5').showModal()}>
 
               <div className="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Image" /></figure>
+                <figure><img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1606414078/Challenges/vjbu8raudheodagmjfz2.jpg" alt="Image" /></figure>
 
                 <div className="card-body flex flex-col justify-start items-center">
                   <h2 className="card-title">Todo Frontend</h2>
@@ -58,7 +58,7 @@ function Project() {
             <button className="" onClick={() => document.getElementById('my_modal_6').showModal()}>
 
               <div className="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" />
+                <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDFyILDO7Y8i6fF2zzLKFSKmvlxZ9pCQ47jg&s" alt="Shoes" />
                 </figure>
 
                 <div className="card-body flex flex-col justify-start items-center">
@@ -104,7 +104,7 @@ function Project() {
             <button className="" onClick={() => document.getElementById('my_modal_7').showModal()}>
 
               <div className="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                <figure><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCTgpziS36V9RzFgKbafV80pwFKcOSEtrYEA&s" alt="Shoes" /></figure>
 
                 <div className="card-body flex flex-col justify-start items-center">
                   <h2 className="card-title">Chat App</h2>
@@ -164,7 +164,7 @@ function Project() {
             <button className="" onClick={() => document.getElementById('my_modal_10').showModal()}>
 
               <div className="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Image" /></figure>
+                <figure><img src="https://www.swic.edu/wp-content/uploads/2021/05/portfolio.png" alt="Image" /></figure>
 
                 <div className="card-body flex flex-col justify-start items-center">
                   <h2 className="card-title">Portfolio</h2>
@@ -207,7 +207,7 @@ function Project() {
             <button className="" onClick={() => document.getElementById('my_modal_11').showModal()}>
 
               <div className="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" />
+                <figure><img src="https://d1d5lvhdlugwpp.cloudfront.net/hlCkEiZBAlAzua497EeMJETP3HHFVKiaR326IGwc.jpeg" alt="Shoes" />
                 </figure>
 
                 <div className="card-body flex flex-col justify-start items-center">
@@ -250,8 +250,8 @@ function Project() {
             {/* Open the modal using document.getElementById('ID').showModal() method */}
             <button className="" onClick={() => document.getElementById('my_modal_12').showModal()}>
 
-              <div className="card w-96 bg-base-100 shadow-xl">
-                <figure><img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+              <div className="card w-96 h-96 bg-base-100 shadow-xl">
+                <figure><img src="https://i.pinimg.com/originals/6b/9e/50/6b9e507694695e7f16eb14c4bdfe8dba.png" alt="Shoes" /></figure>
 
                 <div className="card-body flex flex-col justify-start items-center">
                   <h2 className="card-title">Github Repositories</h2>
