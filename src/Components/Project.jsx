@@ -30,7 +30,7 @@ function Project() {
               <div className="modal-box">
                 <h3 className="font-bold text-lg">Todo Frontend</h3>
                 <h3 className="font-bold text-lg">
-                  <a href="https://github.com/sidad112004/Todo-Frontend">Github Link</a>
+                  <a className='text-blue-500' href="https://github.com/sidad112004/Todo-Frontend">Github Link</a>
                 </h3>
                 <p className="py-4">
                   <li>React</li>
@@ -75,7 +75,7 @@ function Project() {
               <div className="modal-box">
                 <h3 className="font-bold text-lg">Todo Backend</h3>
                 <h3 className="font-bold text-lg">
-                  <a href="https://github.com/sidad112004/Todo-Backend">Github Link</a>
+                  <a className='text-blue-500' href="https://github.com/sidad112004/Todo-Backend">Github Link</a>
                 </h3>
                 <p className="py-4">
                   <li>Express</li>
@@ -120,7 +120,7 @@ function Project() {
               <div className="modal-box">
                 <h3 className="font-bold text-lg">Chat-app</h3>
                 <h3 className="font-bold text-lg">
-                  <a href="https://github.com/sidad112004/Chat-App">Github Link</a>
+                  <a className='text-blue-500' href="https://github.com/sidad112004/Chat-App">Github Link</a>
                 </h3>
                 <p className="py-4">
                   <li>MERN Project</li>
@@ -169,7 +169,7 @@ function Project() {
                 <div className="card-body flex flex-col justify-start items-center">
                   <h2 className="card-title">Portfolio</h2>
 
-                  <p>Portfolio frontend with react vita and tailwand and daisyui</p>
+                  <p>Portfolio frontend with react, tailwand and daisyui</p>
 
                 </div>
               </div>
@@ -180,7 +180,7 @@ function Project() {
               <div className="modal-box">
                 <h3 className="font-bold text-lg">Portfolio</h3>
                 <h3 className="font-bold text-lg">
-                  <a href="https://github.com/sidad112004/Profile">Github Link</a>
+                  <a className='text-blue-500' href="https://github.com/sidad112004/Profile">Github Link</a>
                 </h3>
                 <p className="py-4">
                   <li>React</li>
@@ -213,7 +213,7 @@ function Project() {
                 <div className="card-body flex flex-col justify-start items-center">
                   <h2 className="card-title">Tour-And-Travels</h2>
 
-                  <p> Object oriented mini Project for manginh tour and travels</p>
+                  <p> Object oriented mini Project for Tour-And-Travels</p>
 
                 </div>
               </div>
@@ -224,7 +224,7 @@ function Project() {
               <div className="modal-box">
                 <h3 className="font-bold text-lg">Tour-And-Travels</h3>
                 <h3 className="font-bold text-lg">
-                  <a href="https://github.com/sidad112004/Tour-And-Travels">Github Link</a>
+                  <a className='text-blue-500' href="https://github.com/sidad112004/Tour-And-Travels">Github Link</a>
                 </h3>
                 <p className="py-4">
                   <li>Oop</li>
@@ -256,7 +256,7 @@ function Project() {
                 <div className="card-body flex flex-col justify-start items-center">
                   <h2 className="card-title">Github Repositories</h2>
 
-                  <p>My github all Repositories</p>
+                  <p>My Github all Repositories</p>
 
                 </div>
               </div>
@@ -267,7 +267,7 @@ function Project() {
               <div className="modal-box">
                 <h3 className="font-bold text-lg">Github</h3>
                 <h3 className="font-bold text-lg">
-                  <a href="https://github.com/sidad112004?tab=repositories">Github Link</a>
+                  <a className='text-blue-500' href="https://github.com/sidad112004?tab=repositories">Github Link</a>
                 </h3>
                 <p className="py-4">
                   <li>Github</li>

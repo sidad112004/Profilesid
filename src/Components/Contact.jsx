@@ -8,7 +8,7 @@ function Contact() {
             <div className=' font-bold text-xl'>
                <span className='text-blue-300'>Email :</span><span> siddeshad112004@gmail.com</span>
                <br />
-               <span className='text-blue-300'>Address : </span><span>kolhapur maharashtra</span>
+               <span className='text-blue-300'>Address : </span><span>kolhapur ,maharashtra</span>
                <br />
                <span className='text-blue-300'>Moblie No : </span><span> 9834989257</span>
                

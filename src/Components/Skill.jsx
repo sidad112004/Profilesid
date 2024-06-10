@@ -9,7 +9,7 @@ function Skill() {
         <div className='flex md:flex-col lg:flex-row flex-col w-1/2 justify-around gap-3'>
           <div className="mockup-code">
             <pre data-prefix="$" className='text-xl'><code>DSA;</code></pre>
-            <pre data-prefix=">" className="text-warning"><code>stack</code></pre>
+            <pre data-prefix=">" className="text-warning"><code>Stack</code></pre>
             <pre data-prefix=">" className="text-success"><code>Queue</code></pre>
             <pre data-prefix=">" className="text-warning"><code>Linklist</code></pre>
             <pre data-prefix=">" className="text-success"><code>tree
@@ -47,7 +47,7 @@ function Skill() {
             <pre data-prefix="$" className='text-xl'><code>MERN</code></pre>
             <pre data-prefix=">" className="text-warning"><code>MongoDB</code></pre>
             <pre data-prefix=">" className="text-success"><code>Express</code></pre>
-            <pre data-prefix=">" className="text-warning"><code>React.js</code></pre>
+            <pre data-prefix=">" className="text-warning"><code>React</code></pre>
             <pre data-prefix=">" className="text-success"><code>Node.js
             </code></pre>
             <pre data-prefix=">" className="text-warning"><code>Postman</code></pre>
@@ -63,18 +63,18 @@ function Skill() {
 
 
       <div>
-        <h1 className='text-2xl m-5 font-bold'>language/framworks</h1>
+        <h1 className='text-2xl m-5 font-bold'>Language/Frameworks</h1>
 
       </div>
       <div className='w-full flex md:flex-row flex-col gap-3 justify-center items-center mb-8'>
 
         <div className='flex md:flex-col lg:flex-row flex-col w-1/2 justify-around gap-3'>
           <div className="mockup-code bg-primary text-primary-content">
-            <pre><code>C++ progamming language</code></pre>
+            <pre><code>C++ Programming language</code></pre>
           </div>
 
           <div className="mockup-code  bg-accent text-primary-content">
-            <pre><code>c progamming language</code></pre>
+            <pre><code>c Programming language</code></pre>
           </div>
         </div>
 
