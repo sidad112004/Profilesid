@@ -2,7 +2,7 @@ import React from 'react';
 
 function Skill() {
   return (
-    <div className='h-screen flex flex-col items-center'>
+    <div className='flex flex-col items-center'>
        <h1 className='text-2xl mb-4 font-bold'>Skills</h1>
       <div className='w-full flex md:flex-row flex-col gap-3 justify-center items-center mb-8'>
     

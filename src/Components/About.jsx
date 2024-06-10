@@ -3,8 +3,8 @@ import React from 'react';
 function About() {
     return (
 
-        <div className='flex md:flex-row flex-col h-full'>
-            <div className="hero min-h-screen bg-base-100">
+        <div className='flex md:flex-row flex-col'>
+            <div className="hero bg-base-100">
                 <div className="hero-content text-center">
                     <div className="max-w-md">
                         <h1 className="text-5xl font-bold">Hello there,</h1>
