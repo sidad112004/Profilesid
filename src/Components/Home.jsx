@@ -2,17 +2,14 @@ import React from 'react';
 
 function Home() {
     return (
-        <div className='min-h-screen'>
-            <div className='flex flex-col md:flex-row h-screen'>
-                <div className='md:w-1/3 w-full flex justify-center items-center mt-40 md:mt-0 p-5'>
-                    <img className='w-1/2 md:w-2/3 ' src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="image" />
-                </div>
-                <div className='md:w-2/3 w-full flex justify-center items-center p-6 md:p-28'>
+        <div>
+            <div className="hero mt-36 bg-base-100">
+                <div className="hero-content flex-col lg:flex-row ">
+                    <img src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" />
                     <div>
-                        <h1 className='text-2xl md:text-4xl font-bold font-serif mb-4 mt-6 md:mt-0'>I'm Siddesh Dhanlobhe</h1>
-                        <h1 className='text-base md:text-xl font-semibold'>
-                            I am a dedicated and driven engineering student at Government College of Engineering, Karad, pursuing a Bachelor of Technology in Information Technology. My passion lies in full-stack developmen and problem solving.
-                        </h1>
+                        <h1 className="text-5xl font-bold">Siddesh Dhanlobhe</h1>
+                        <p className="py-6">Engineering Student at Government College of Engineering, Karad, Information Technology Branch | MERN Stack Developer | Aspiring Software Engineer</p>
+                        
                     </div>
                 </div>
             </div>

@@ -6,6 +6,7 @@ import About from './Components/About';
 import Skill from './Components/Skill';
 import Achivement from './Components/Achivement';
 import Contact from './Components/Contact';
+import Project from './Components/Project';
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
     <Route path='/about' element={<About/>}/>
     <Route path='/skill' element={<Skill/>}/>
     <Route path='/achivement' element={<Achivement/>}/>
+    <Route path='/project' element={<Project/>}/>
     <Route path='/contact' element={<Contact/>}/>
     
     </Routes>

@@ -1,53 +1,45 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
-    const [isOpen, setIsOpen] = useState(false);
-    const [activeLink, setActiveLink] = useState('Home');
-
-    const handleLinkClick = (link) => {
-        setActiveLink(link);
-        setIsOpen(false);
-    };
-
     return (
-        <nav className=" p-3 text-white fixed w-full z-10 bg-slate-700">
-            <div className="flex justify-between items-center">
-                <div className="font-bold text-lg">SIDDESH</div>
-                <div className="block md:hidden">
-                    <button onClick={() => setIsOpen(!isOpen)} className="text-white focus:outline-none">
-                        {isOpen ? 'Close' : 'Menu'}
-                    </button>
+        <div>
+            <div className="navbar bg-base-100 ">
+                <div className="navbar-start">
+                    <div className="dropdown">
+                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/skill">skills</Link></li>
+                            <li><Link to="/achivement">achivement</Link></li>
+                            <li><Link to="/Project">Project</Link></li>
+                            <li><Link to="/contact">contact</Link></li>
+
+                        </ul>
+                    </div>
+                    <a className="btn btn-ghost text-xl">SIDDESH</a>
                 </div>
-                <div className={`flex-grow md:flex md:items-center md:justify-end ${isOpen ? 'block' : 'hidden'} md:block`}>
-                    <div
-                        className={`p-2 m-2 md:mr-9 w-full md:w-auto flex justify-center items-center font-bold font-serif ${activeLink === 'Home' ? 'text-blue-500 border-b-2 border-blue-500' : 'hover:text-blue-400 hover:border-b-2 border-blue-400'}`}
-                    >
-                        <Link to="/" onClick={() => handleLinkClick('Home')}>Home</Link>
-                    </div>
-                    <div
-                        className={`p-2 m-2 md:mr-9 w-full md:w-auto flex justify-center items-center font-bold font-serif ${activeLink === 'About' ? 'text-blue-500 border-b-2 border-blue-500' : 'hover:text-blue-400 hover:border-b-2 border-blue-400'}`}
-                    >
-                        <Link to="/about" onClick={() => handleLinkClick('About')}>About</Link>
-                    </div>
-                    <div
-                        className={`p-2 m-2 md:mr-9 w-full md:w-auto flex justify-center items-center font-bold font-serif ${activeLink === 'Skills' ? 'text-blue-500 border-b-2 border-blue-500' : 'hover:text-blue-400 hover:border-b-2 border-blue-400'}`}
-                    >
-                        <Link to="/skill" onClick={() => handleLinkClick('Skills')}>Skills</Link>
-                    </div>
-                    <div
-                        className={`p-2 m-2 md:mr-9 w-full md:w-auto flex justify-center items-center font-bold font-serif ${activeLink === 'Achivement' ? 'text-blue-500 border-b-2 border-blue-500' : 'hover:text-blue-400 hover:border-b-2 border-blue-400'}`}
-                    >
-                        <Link to="/achievement" onClick={() => handleLinkClick('Achivement')}>Achievement</Link>
-                    </div>
-                    <div
-                        className={`p-2 m-2 md:mr-9 w-full md:w-auto flex justify-center items-center font-bold font-serif ${activeLink === 'Contact' ? 'text-blue-500 border-b-2 border-blue-500' : 'hover:text-blue-400 hover:border-b-2 border-blue-400'}`}
-                    >
-                        <Link to="/contact" onClick={() => handleLinkClick('Contact')}>Contact</Link>
-                    </div>
+                <div className="navbar-center hidden lg:flex">
+                    <ul className="menu menu-horizontal px-1">
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/about">About</Link></li>
+                        <li><Link to="/skill">skills</Link></li>
+                        <li><Link to="/achivement">achivement</Link></li>
+                        <li><Link to="/Project">Project</Link></li>
+                        <li><Link to="/contact">contact</Link></li>
+
+
+                    </ul>
+                </div>
+                <div className="navbar-end">
+
                 </div>
             </div>
-        </nav>
+        </div>
     );
 }
 
