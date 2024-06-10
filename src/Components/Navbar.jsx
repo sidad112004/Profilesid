@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     return (
         <div>
-            <div className="navbar bg-base-100 ">
+            <div className="navbar bg-base-100 font-bold ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -14,10 +14,10 @@ function Navbar() {
 
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about">About</Link></li>
-                            <li><Link to="/skill">skills</Link></li>
-                            <li><Link to="/achivement">achivement</Link></li>
+                            <li><Link to="/skill">Skills</Link></li>
+                            <li><Link to="/achivement">Achivement</Link></li>
                             <li><Link to="/Project">Project</Link></li>
-                            <li><Link to="/contact">contact</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
 
                         </ul>
                     </div>
@@ -27,10 +27,10 @@ function Navbar() {
                     <ul className="menu menu-horizontal px-1">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
-                        <li><Link to="/skill">skills</Link></li>
-                        <li><Link to="/achivement">achivement</Link></li>
+                        <li><Link to="/skill">Skills</Link></li>
+                        <li><Link to="/achivement">Achivement</Link></li>
                         <li><Link to="/Project">Project</Link></li>
-                        <li><Link to="/contact">contact</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
 
 
                     </ul>
