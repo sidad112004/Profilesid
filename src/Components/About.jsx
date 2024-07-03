@@ -66,7 +66,8 @@ function About() {
                         <div>3rd year</div>
                     </div>
                 </li>
-            </ul>
+                <h1></h1>
+         </ul>
         </div>
     );
 }
