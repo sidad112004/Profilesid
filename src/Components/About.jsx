@@ -67,7 +67,7 @@ function About() {
                     </div>
                 </li>
                 <h1></h1>
-         </ul>
+    </ul>
         </div>
     );
 }
