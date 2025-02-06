@@ -13,7 +13,7 @@ const projects = [
     id: 'my_modal_6',
     title: 'Feedback Analyzer ',
     description: 'Developed a web application that collects client feedback and analyzes it using machine learning to categorize feedback as good, bad, or neutral, providing insights to the user.',
-    githubLink: 'https://github.com/sidad112004/Todo-Backend',
+    githubLink: 'https://github.com/AdityaKhatavkar/Feedback_Analyzer',
     // videoLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // Demo link
     technologies: ['React', 'Node.js', 'MongoDB', 'Machine Learning (collaborated)','User authentication using cookies'],
   },
