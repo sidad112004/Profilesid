@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaCode, FaPython } from "react-icons/fa";
-import { SiLeetcode, SiCodechef } from "react-icons/si";
+import { SiLeetcode, SiCodechef ,SiGeeksforgeeks} from "react-icons/si";
 
 function Achievements() {
   const achievements = [
@@ -24,8 +24,8 @@ function Achievements() {
     },
     {
       id: 6,
-      icon: <SiLeetcode size={40} className="text-green-500" />,
-      title: "550+ Leetcode Problems Solved",
+      icon: <SiGeeksforgeeks size={40} className="text-green-500" />,
+      title: "Geeks for Geeks ",
       subtitle: "Solved more that 70 problems",
       link: "https://www.geeksforgeeks.org/user/sid112004/",
       linkText: "View GFG Profile",
