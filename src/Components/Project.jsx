@@ -2,6 +2,14 @@ import React from 'react';
 
 const projects = [
   {
+    id: 'my_modal_8',
+    title: 'Task-Tracker',
+    description: 'AI-Based Task Tracker is a role-based task management system that uses AI (Gemini API + Inngest) to auto-assign tasks, summarize problems, and connect users with the right experts. Built with the MERN stack, Prisma .',
+    githubLink: 'https://github.com/sidad112004/Task-Tracker',
+    videoLink: 'https://www.youtube.com/watch?v=rZ0g89Ha2sM', // Demo link
+    technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Prisma', 'Tailwind CSS', 'DaisyUI', 'JWT', 'Inngest', 'Gemini API'],
+  },
+  {
     id: 'my_modal_5',
     title: 'Api-Hub',
     description: 'Developed an API platform for developers to access pre-built APIs and create custom endpoints, enabling users to generate tailored APIs with custom fields and JSON data, reducing search time across platforms.',
